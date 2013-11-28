@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Johnels Restaurant | Hammond Restaurant Indiana
+    %meta{content: "If you're not sure what you want for dinner Johnel's Restaurant has an extensive dinner menu for any craving.", name: "description"}/
+    %meta{content: "Dinner Menu, weekly dinner menu, dinner menu ideas, Hotel restaurant menu, restaurant menu, Hammond, Indiana", name: "keywords"}/
+
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+
+    = csrf_meta_tags
+  %body
+    = yield
